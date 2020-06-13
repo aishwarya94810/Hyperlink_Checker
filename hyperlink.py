@@ -1,5 +1,6 @@
 import urllib.request, urllib.error
 
+print("Welcome to Hyperlink Checker, please provide the hyperlink below.")
 url = input()
 try:
     conn = urllib.request.urlopen(url)
